@@ -1,7 +1,7 @@
 // Variables
 
 
-//  Functions
+// Functions
 
 
 // Event listeners
