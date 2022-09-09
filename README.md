@@ -1,4 +1,4 @@
-# 07 Project 1: Interactive Front-End Application
+# 07 Project 1: Rent Race
 
 ## Members
 ### Christian Hernandez
