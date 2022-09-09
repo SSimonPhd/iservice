@@ -1,4 +1,4 @@
-# 07 Project 1: Rent Race
+# 07 Project 1: Rent Rekt
 
 ## Members
 ### Christian Hernandez
