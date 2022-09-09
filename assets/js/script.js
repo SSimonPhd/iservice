@@ -50,7 +50,6 @@ searchButton.click(function () {
 				currentCard.empty();
 				var currentName = currentCard.append("<p>");
 
-				// .addClass("card-text");
 				currentCard.append(currentName);
 
 				// Adjust Date 
@@ -61,14 +60,13 @@ searchButton.click(function () {
 				// Add Temp 
 				var currentTemp = currentName.append("<p>");
 
-				// .addClass("card-text");
 				currentName.append(currentTemp);
 				currentTemp.append("<p>" + "Temperature: " + response.main.temp + "</p>");
 
 				// Add Humidity
 				currentTemp.append("<p>" + "Humidity: " + response.main.humidity + "%" + "</p>");
 
-				// // Add Wind Speed: 
+				// Add Wind Speed: 
 				currentTemp.append("<p>" + "Wind Speed: " + response.wind.speed + "</p>");
 
 				// UV Index URL
