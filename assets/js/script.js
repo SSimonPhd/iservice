@@ -1,7 +1,7 @@
 // Variables 
 var searchButton = $(".searchButton");
 
-var apiKey = "b8ecb570e32c2e5042581abd004b71bb";
+var apiKey = "b8ec7358b8dc4b5bc6345d5c98bc8cab0e00";
 
 // For loop to persist data
 for (var i = 0; i < localStorage.length; i++) {
@@ -36,7 +36,7 @@ searchButton.click(function () {
 				method: "GET"
 		}).then(function (response) {
 
-				// list-group append an li to it with just set text
+				// list-group append
 				// console.log(response.name);
 				var cityName = $(".list-group").addClass("list-group-item");
 				cityName.append("<li>" + response.name + "</li>");
@@ -45,7 +45,7 @@ searchButton.click(function () {
 				var local = localStorage.setItem(keyCount, response.name);
 				keyCount = keyCount + 1;
 
-				// Start Current Weather append 
+				// Current Weather append 
 				var currentCard = $(".currentCard").append("<div>").addClass("card-body");
 				currentCard.empty();
 				var currentName = currentCard.append("<p>");
@@ -72,7 +72,7 @@ searchButton.click(function () {
 				currentTemp.append("<p>" + "Wind Speed: " + response.wind.speed + "</p>");
 
 				// UV Index URL
-				var urlUV = `https://api.openweathermap.org/data/2.5/uvi?appid=b8ecb570e32c2e5042581abd004b71bb&lat=${response.coord.lat}&lon=${response.coord.lon}`;
+				var urlUV = `https://api.openweathermap.org/data/2.5/uvi?appid=ec7358b8dc4b5bc6345d5c98bc8cab0e00&lat=${response.coord.lat}&lon=${response.coord.lon}`;
 
 				// UV Index
 				$.ajax({
@@ -85,7 +85,7 @@ searchButton.click(function () {
 				});
 		});
 
-		// Start call for 5-day forecast 
+		// 5-day forecast 
 		$.ajax({
 				url: urlFiveDay,
 				method: "GET"
