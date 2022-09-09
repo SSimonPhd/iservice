@@ -1,7 +1,7 @@
 // Variables 
 var searchButton = $(".searchButton");
 
-var apiKey = "b8ec7358b8dc4b5bc6345d5c98bc8cab0e00";
+var apiKey = "7358b8dc4b5bc6345d5c98bc8cab0e00";
 
 // For loop to persist data
 for (var i = 0; i < localStorage.length; i++) {
@@ -72,7 +72,7 @@ searchButton.click(function () {
 				currentTemp.append("<p>" + "Wind Speed: " + response.wind.speed + "</p>");
 
 				// UV Index URL
-				var urlUV = `https://api.openweathermap.org/data/2.5/uvi?appid=ec7358b8dc4b5bc6345d5c98bc8cab0e00&lat=${response.coord.lat}&lon=${response.coord.lon}`;
+				var urlUV = `https://api.openweathermap.org/data/2.5/uvi?appid=7358b8dc4b5bc6345d5c98bc8cab0e00&lat=${response.coord.lat}&lon=${response.coord.lon}`;
 
 				// UV Index
 				$.ajax({
