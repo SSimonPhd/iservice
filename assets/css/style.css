@@ -72,3 +72,10 @@ a:hover {
 #button-addon2:hover {
 	color: white;
 }
+
+#map {
+	/* margin: 10% 0 10% 15%; */
+	height: 500px;
+	/* width: 70%; */
+	background-color: #f7de50;
+}

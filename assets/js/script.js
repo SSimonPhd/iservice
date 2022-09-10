@@ -104,4 +104,58 @@ searchButton.click(function () {
 				})
 		});
 	}
+	let map = document.querySelector("#map");
+	map.scrollIntoView();
+	waypnts = [];
+	selectedRentArr = [];
 });
+
+	let map;
+// initial the map on DOM
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 30.266666, lng: -97.733330  },
+        zoom: 8,
+    });
+}
+// routing map
+let startingInput, destinationInput, waypointInput;
+
+// pull out objects from array
+function auditCheckMark() {
+    if ($("#checkbox").is(":checked")) {
+        renderDirectionOnMap($("#start").val(), $("#start").val());
+    } else {
+        renderDirectionOnMap($("#start").val(), $("#end").val());
+    }
+}
+
+// Calculate and render direction on the map
+const renderDirectionOnMap = (origin, destination) => {
+    let directionService = new google.maps.DirectionsService(),
+        directionRenderer = new google.maps.DirectionsRenderer(),
+        // what we are sending
+        request;
+    if ($("#checkboxOrder").is(":checked")) {
+        request = {
+            origin: origin,
+            destination: destination,
+            waypoints: waypnts,
+            travelMode: "DRIVING",
+        };
+    } else {
+        request = {
+            origin: origin,
+            destination: destination,
+            waypoints: waypnts,
+            optimizeWaypoints: true,
+            travelMode: "DRIVING",
+        };
+    }
+    directionRenderer.setMap(map);
+    directionService.route(request, (result, status) => {
+        if (status == "OK") {
+            directionRenderer.setDirections(result);
+        }
+    });
+};
