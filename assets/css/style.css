@@ -1,81 +1,19 @@
 /* Universal selector */
-* {
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	border-radius: 10px;
+*{
+
 }
 
 /* Element selectors */
-body {
-	background-color: #1b2838;
-}
+element {
 
-h1 {
-	font-size: 56px;
-	font-weight: 500;
-	margin: -10px;
-	padding: 10px
-	}
-
-ul {
-  list-style: none;
-}
-
-li {
-	border: 1px solid #1b2838;
-	text-align: left;
-	margin: 2px;
-	padding-left: 10px;
-	font-size: 20px
-}
-
-li:hover {
-	color: white;
-	background-color:#1b2838; 
-}
-
-img {
-	width: 100px;
-	height: 100px;
-}
-
-a {
-	font-size: 20px;
-	font-weight: 600;
-	color: #1b2838;
-}
-
-a:hover {
-	color: #1b2838;
-	text-decoration: underline;
-	text-decoration-color: #1b2838;
 }
 
 /* Class selectors */
-.card-title {
-  font-size: 25px;
-	font-weight: 500;
+.class {
+
 }
 
-.fiveDayColor {
-	padding: 20px;
-	background-color: #f7de50;
-	color: black;
-	float: left;
-	margin: 10px;
-}
+/* Id selectors */
+#id {
 
-.wrapped-map {
-	position: absolute;
-	margin-left: 420px;
-  width: 60%;
-  height: 50%;
-}
-
-/* Id selectors  */
-#button-addon2 {
-	color: white;
-}
-
-#button-addon2:hover {
-	color: white;
 }
