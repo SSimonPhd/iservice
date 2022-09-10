@@ -1,4 +1,4 @@
-# 07 Project 1: Rent Rekt
+# 07 Project 1: API Dashboard
 
 ## Members
 ### Christian Hernandez
