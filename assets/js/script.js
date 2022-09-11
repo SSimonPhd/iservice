@@ -6,24 +6,26 @@
 
 // Local Storage
 
-// Google map
-// function initMap() {
-//   // Location
-//   const austin = { lat: 30.266666, lng: -97.733330 };
-//   // The map, zoomed at Austin
-//   const map = new google.maps.Map(document.getElementById("map"), {
-//     zoom: 10,
-//     center: austin,
-//   });
-//   // The marker, positioned at Austin
-//   const marker = new google.maps.Marker({
-//     position: austin,
-//     map: map,
-//   });
-// }
+// IP geolocation api
+var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+var requestOptions = {
+    method: "get",
+    headers: myHeaders,
+    redirect: "follow",
+};
 
-// window.initMap = initMap;
+fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
 
+		console.log = function(message) {
+			document.getElementById('result').innerHTML = message;
+	};
+	console.log('');
+
+// Google map with geolocator function
 let map, infoWindow;
 
 function initMap() {
@@ -76,23 +78,20 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 window.initMap = initMap;
 
+// Google map with marker
+// function initMap() {
+//   // Location
+//   const austin = { lat: 30.266666, lng: -97.733330 };
+//   // The map, zoomed at Austin
+//   const map = new google.maps.Map(document.getElementById("map"), {
+//     zoom: 10,
+//     center: austin,
+//   });
+//   // The marker, positioned at Austin
+//   const marker = new google.maps.Marker({
+//     position: austin,
+//     map: map,
+//   });
+// }
 
-
-// IP geolocator api
-var myHeaders = new Headers();
-myHeaders.append("Content-Type", "application/json");
-var requestOptions = {
-    method: "get",
-    headers: myHeaders,
-    redirect: "follow",
-};
-
-fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
-
-		console.log = function(message) {
-			document.getElementById('result').innerHTML = message;
-	};
-	console.log('');
+// window.initMap = initMap;
