@@ -11,6 +11,8 @@
 
 	<link rel="stylesheet" href="assets/css/style.css">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
 	<title>API Dashboard</title>
 </head>
 
@@ -22,10 +24,20 @@
 		</div>
 	</section>
 
-	<h3 class="subtitle is-size-5 has-text-link-dark has-text-weight-bold">Behold the awesomest Google Maps API Demo. Notice custom marker zoomed in on Austin, Texas. Sweet!</h3>
+	<div class="container">
+		<h3 class="title is-size-4 has-text-link-dark">Your Browser Geolocation Data</h3>
+	<div class="is-size-6 mb-5 has-text-white p-4" id="result" ></div>
+	</div>
+
+	<h3 class="subtitle is-size-5 has-text-link-dark has-text-weight-bold">Behold the awesomest Google Maps Geolocation API Demo. Home base is Austin, Texas. Sweet!</h3>
 
 	<!--The div element for the map -->
 	<div id="map"></div>
+	<!-- <script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPgBfg8QpfQX1EYoIF0akG9hVU3m81WQ&callback=initMap&v=weekly"
+		defer>
+	</script> -->
+
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPgBfg8QpfQX1EYoIF0akG9hVU3m81WQ&callback=initMap&v=weekly"
 		defer>
