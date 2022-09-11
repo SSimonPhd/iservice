@@ -1,4 +1,4 @@
-# 07 Project 1: API Dashboard
+# Project 1: API Dashboard
 
 ## Members
 ### Christian Hernandez
