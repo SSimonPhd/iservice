@@ -1,19 +1,26 @@
 /* Universal selector */
-*{
+/* {
 
 }
 
 /* Element selectors */
-element {
-
+body {
+	height: 100vh;
+	background-color: pink;
+	text-align: center;
 }
 
 /* Class selectors */
-.class {
+/* .class {
 
 }
 
 /* Id selectors */
-#id {
-
+#map {
+  height: 600px;
+  width: 56%;
+	margin-left: auto;
+  margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 4px 4px hsl(217, 71%, 45%);
 }
