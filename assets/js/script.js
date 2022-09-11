@@ -1,11 +1,3 @@
-// Variables
-
-// Functions
-
-// Event listeners
-
-// Local Storage
-
 // Geolocation data api
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
