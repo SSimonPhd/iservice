@@ -25,7 +25,7 @@ fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOption
 	};
 	console.log('');
 
-// Google map with geolocator function
+// Google map with geolocator api
 let map, infoWindow;
 
 function initMap() {
