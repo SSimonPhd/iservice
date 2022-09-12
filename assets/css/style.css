@@ -1,12 +1,9 @@
 /* Universal selector */
-/* {
-
-}
 
 /* Element selectors */
 body {
 	height: 100vh;
-	background-color: pink;
+	background-color: #1b2838;
 	text-align: center;
 }
 
@@ -30,14 +27,14 @@ body {
 
 /* Id selectors */
 #result {
-	background-color:hsl(217, 71%, 45%);
+	background-color: black;
 	border-radius: 10px;
   height: 200px;
   width: 60%;
 	margin-left: auto;
   margin-right: auto;
 	border-radius: 10px;
-	box-shadow: 4px 4px white;
+	box-shadow: 4px 4px hsl(204, 86%, 53%);
 	word-wrap: break-word;
 }
 
@@ -47,5 +44,5 @@ body {
 	margin-left: auto;
   margin-right: auto;
 	border-radius: 10px;
-	box-shadow: 4px 4px hsl(217, 71%, 45%);
+	box-shadow: 4px 4px hsl(204, 86%, 53%);
 }
