@@ -27,7 +27,7 @@ body {
 
 /* Id selectors */
 #result {
-	background-color: black;
+	background-color: #0c111a;
 	border-radius: 10px;
   height: 200px;
   width: 60%;
