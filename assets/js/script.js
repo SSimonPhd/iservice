@@ -1,17 +1,34 @@
 // Seatgeek api
-const clientId   = 'MjkwNzYwNjh8MTY2MzA4MjYzNi4yNDI1OTEx';                              // my ID
-const seatSecret = 'c0c6077e57c5b2704b0249ea93b976cad9ab01c4b6e98f47231b108372000adc';  // my secret (not using below)
-const seatGeek   = 'https://api.seatgeek.com/2/'                                        // seat geek api url
+// my ID
+const clientId = 'MjkwNzYwNjh8MTY2MzA4MjYzNi4yNDI1OTEx'; 
 
-var newButton    = document.getElementById('newButton');                                // grab button
+// my secret (not using below)
+const seatSecret = 'c0c6077e57c5b2704b0249ea93b976cad9ab01c4b6e98f47231b108372000adc';
+
+// seat geek api url
+const seatGeek = 'https://api.seatgeek.com/2/' 
+
+// grab button
+var newButton = document.getElementById('newButton'); 
 
 var superAwesome = function userValue() {
-    var userInput = document.getElementById('userInput').value;                        // grab the value of the input field
-    console.log(userInput);                                                            // let user see what they typed in
-    fetch(seatGeek+'venues?city='+userInput+'&client_id='+clientId)                    // fetch the seat geek venues api based on what the user typed in
-     .then(response => response.text())                                                // convert the response into text friendly... i think?
-     .then(result => console.log(result));                                             // show us the results in the console log
-    return userInput;                                                                  // not sure if needed 
+
+		// grab the value of the input field
+    var userInput = document.getElementById('userInput').value; 
+
+		// let user see what they typed in
+    console.log(userInput); 
+
+		// fetch the seat geek venues api based on what the user typed in
+    fetch(seatGeek+'venues?city='+userInput+'&client_id='+clientId)
+		
+		// convert the response into text friendly... i think?
+     .then(response => response.text()) 
+
+		 // show us the results in the console log
+     .then(result => console.log(result)); 
+   		
+		 return                                                                
 }
 
 newButton.addEventListener("click", superAwesome);  
