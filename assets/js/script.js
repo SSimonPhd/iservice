@@ -27,15 +27,15 @@ var superAwesome = function userValue() {
 
 		 // show us the results in the console log
      .then(result => console.log(result)); 
-   		
-		 return                                                                
+
+		 return;
+
+		//  console.log = function(message) {
+		// 	document.getElementById('result1').innerHTML = message;
+	                                                              
 }
 
 newButton.addEventListener("click", superAwesome);  
-
-console.log = function(message) {
-	document.getElementById('result1').innerHTML = message;
-};
 
 // Geolocation data api
 var myHeaders = new Headers();
