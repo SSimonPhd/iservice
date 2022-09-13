@@ -2,12 +2,47 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>API Dashboard</title>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bulma -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="icon" type="image/png" href="assets/images/pacman.png">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+	<title>Geoloco</title>
 </head>
 
 <body>
+	<section class="section p-5">
+		<div class="container">
+			<h1 class="title is-size-1 has-text-light" style="display: inline-block;" >Geoloco...</h1>
+			<img width=60px height=60px src="assets/images/pacman-icon.png">
+			<p class="subtitle is-size-5 py-2 has-text-light">Our CSS framework is <strong class="has-text-info">Bulma! </strong>Our Geolocation Service features <strong class="has-text-info">2 APIs! ;)</strong><br><br> MVP (minimum viable product) with MRE (minimum required effort)</p>
+		</div>
+	</section>
+
+	<div class="container">
+		<h3 class="title is-size-4 has-text-info">1) Your IP geolocation data...</h3>
+		<div class="is-size-6 mb-5 has-text-info p-4" id="result" ></div>
+	</div>
+
+	<h3 class="title is-size-4 my-5 py-2 has-text-info">2) Google geolocator (click Pan). Starting point Austin, Texas.</h3>
+
+	<!-- Google map -->
+	<div id="map"></div>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPgBfg8QpfQX1EYoIF0akG9hVU3m81WQ&callback=initMap&v=weekly"
+		defer>
+	</script>
+
+	<!-- JS script -->
+	<script src="assets/js/script.js"></script>
 
 </body>
 
