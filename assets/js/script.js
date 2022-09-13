@@ -5,7 +5,7 @@ const clientId = 'MjkwNzYwNjh8MTY2MzA4MjYzNi4yNDI1OTEx';
 // my secret (not using below)
 const seatSecret = 'c0c6077e57c5b2704b0249ea93b976cad9ab01c4b6e98f47231b108372000adc';
 
-// seat geek api url
+// seatGeek api url
 const seatGeek = 'https://api.seatgeek.com/2/' 
 
 // grab button
@@ -28,12 +28,9 @@ var superAwesome = function userValue() {
 		 // show us the results in the console log
      .then(result => console.log(result)); 
 
-		 return;
-
-		//  console.log = function(message) {
-		// 	document.getElementById('result1').innerHTML = message;
-	                                                              
-}
+		 console.log = function(message) {
+			document.getElementById('result1').innerHTML = message;                                                            
+}}
 
 newButton.addEventListener("click", superAwesome);  
 
