@@ -26,7 +26,19 @@ body {
 }
 
 /* Id selectors */
-#result {
+#result1 {
+	background-color: #0c111a;
+	border-radius: 10px;
+  height: 200px;
+  width: 60%;
+	margin-left: auto;
+  margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 4px 4px hsl(204, 86%, 53%);
+	word-wrap: break-word;
+}
+
+#result2 {
 	background-color: #0c111a;
 	border-radius: 10px;
   height: 200px;

@@ -1,3 +1,25 @@
+// Seatgeek api
+const clientId   = 'MjkwNzYwNjh8MTY2MzA4MjYzNi4yNDI1OTEx';                              // my ID
+const seatSecret = 'c0c6077e57c5b2704b0249ea93b976cad9ab01c4b6e98f47231b108372000adc';  // my secret (not using below)
+const seatGeek   = 'https://api.seatgeek.com/2/'                                        // seat geek api url
+
+var newButton    = document.getElementById('newButton');                                // grab button
+
+var superAwesome = function userValue() {
+    var userInput = document.getElementById('userInput').value;                        // grab the value of the input field
+    console.log(userInput);                                                            // let user see what they typed in
+    fetch(seatGeek+'venues?city='+userInput+'&client_id='+clientId)                    // fetch the seat geek venues api based on what the user typed in
+     .then(response => response.text())                                                // convert the response into text friendly... i think?
+     .then(result => console.log(result));                                             // show us the results in the console log
+    return userInput;                                                                  // not sure if needed 
+}
+
+newButton.addEventListener("click", superAwesome);  
+
+console.log = function(message) {
+	document.getElementById('result1').innerHTML = message;
+};
+
 // Geolocation data api
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
@@ -13,9 +35,8 @@ fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOption
     .catch(error => console.log('error', error));
 
 		console.log = function(message) {
-			document.getElementById('result').innerHTML = message;
+			document.getElementById('result2').innerHTML = message;
 	};
-	console.log('');
 
 // Google map with geolocator api
 let map, infoWindow;
