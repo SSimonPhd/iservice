@@ -6,7 +6,7 @@ const clientId = 'MjkwNzYwNjh8MTY2MzA4MjYzNi4yNDI1OTEx';
 const seatSecret = 'c0c6077e57c5b2704b0249ea93b976cad9ab01c4b6e98f47231b108372000adc';
 
 // seatGeek api url
-const seatGeek = 'https://api.seatgeek.com/2/' 
+const seatGeek = 'https://api.seatgeek.com/2/'
 
 // grab button
 var newButton = document.getElementById('newButton'); 
@@ -27,30 +27,13 @@ var superAwesome = function userValue() {
 
 		 // show us the results in the console log
      .then(result => console.log(result)); 
-
-		 console.log = function(message) {
-			document.getElementById('result1').innerHTML = message;                                                            
-}}
+		 return userInput;  
+}
+// 		 console.log = function(message) {
+// 			document.getElementById('result').innerHTML = message;                                                            
+// };
 
 newButton.addEventListener("click", superAwesome);  
-
-// Geolocation data api
-var myHeaders = new Headers();
-myHeaders.append("Content-Type", "application/json");
-var requestOptions = {
-    method: "get",
-    headers: myHeaders,
-    redirect: "follow",
-};
-
-fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
-
-		console.log = function(message) {
-			document.getElementById('result2').innerHTML = message;
-	};
 
 // Google map with geolocator api
 let map, infoWindow;
