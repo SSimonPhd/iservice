@@ -29,9 +29,9 @@ var superAwesome = function userValue() {
      .then(result => console.log(result)); 
 		 return userInput;  
 }
-// 		 console.log = function(message) {
-// 			document.getElementById('result').innerHTML = message;                                                            
-// };
+		 console.log = function(message) {
+			document.getElementById('result').innerHTML = message;                                                            
+};
 
 newButton.addEventListener("click", superAwesome);  
 
