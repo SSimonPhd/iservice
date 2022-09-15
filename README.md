@@ -10,9 +10,9 @@ Build an API Dashboard featuring 2 server-side APIs, with a CSS framework other 
 -  Created HTML, CSS, JS starter files
 -  Added Bulma, CSS, JS links to HTML
 -  Coded initial headers, containers, styles with Bulma (by referencing the docs)
--  Built Google Maps Geolocation API in JS, added to HTML (by researching Google   Maps Platform docs and tutorials)
--  Built IP Geolocation API in JS, added to HTML (sourced by web search)
--  Coded localStorage placeholder to demo and test while working out design
+-  Built Google Maps Geolocation API in JS, added to HTML (by researching Google   Maps Platform docs, tutorials, code snippets, and demos)
+-  Built IP Geolocation API in JS, added to HTML (sourced from web search)
+-  Coded local storage placeholder to demo and test
 -  NEXT: Filter, parse, and format IP Geolocation data for UI
 
 - Screenshot
