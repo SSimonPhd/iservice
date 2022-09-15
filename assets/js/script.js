@@ -3,19 +3,19 @@ function increaseCounter() {
 	var count = Number(window.localStorage.getItem("count"));
 	count += 1;
 	window.localStorage.setItem("count", count);
-	document.getElementById("score").innerHTML = count;
+	document.getElementById("total").innerHTML = count;
 }
 
 function decreaseCounter() {
 	var count = Number(window.localStorage.getItem("count"));
 	count -= 1;
 	window.localStorage.setItem("count", count);
-	document.getElementById("score").innerHTML = count;
+	document.getElementById("total").innerHTML = count;
 }
 
 function clearCounter() {
 	window.localStorage.clear();
-	document.getElementById("score").innerHTML = "";
+	document.getElementById("total").innerHTML = "";
 }
 
 // Geolocation data api
