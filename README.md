@@ -4,7 +4,7 @@ Assignment:
 
 Build an API Dashboard featuring 2 server-side APIs, with a CSS framework other than Bootstrap, and utilizing local storage:
 
-1. Committed to minimalist design philosophy and coding all files by hand from scratch 
+1. 	Brainstormed project ideas, user stories,  
 1.  Researched broadly REST APIs, CSS frameworks, and related JavaScript 
 1.  Created repository for project in GitHub and cloned to local directory
 1.  Created test branch for working demo
