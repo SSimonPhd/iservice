@@ -2,13 +2,17 @@
 
 Assignment:
 
-Build a web app featuring 2 server-side APIs using a CSS framework other than bootstrap, and utilizing local storage:
+Build an API Dashboard featuring 2 server-side APIs, with a CSS framework other than Bootstrap, and utilizing local storage:
 
-1. Researched REST APIs, CSS frameworks, and related JavaScript 
-2. Created repository for project in GitHub and clone to local directory
-3. Created index, css, js starter files 
-4. to be continued
-
+-  Researched REST APIs, CSS frameworks, and related JavaScript 
+-  Created repository for project in GitHub and clone to local directory
+-  Created HTML, CSS, JS starter files
+-  Added Bulma, CSS, JS links to HTML
+-  Coded initial headers, containers, styles with Bulma
+-  Built Google Maps Geolocation API in JS, added to HTML
+-  Built IP Geolocation API in JS, added to HTML
+-  Coded localStorage placeholder to demo and test 
+-  
 
 - Screenshot
 
