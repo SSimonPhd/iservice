@@ -1,3 +1,23 @@
+// Local storage counter
+function increaseCounter() {
+	var count = Number(window.localStorage.getItem("count"));
+	count += 1;
+	window.localStorage.setItem("count", count);
+	document.getElementById("score").innerHTML = count;
+}
+
+function decreaseCounter() {
+	var count = Number(window.localStorage.getItem("count"));
+	count -= 1;
+	window.localStorage.setItem("count", count);
+	document.getElementById("score").innerHTML = count;
+}
+
+function clearCounter() {
+	window.localStorage.clear();
+	document.getElementById("score").innerHTML = "";
+}
+
 // Geolocation data api
 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
@@ -23,7 +43,7 @@ let map, infoWindow;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 30.266666, lng: -97.733330},
-    zoom: 10,
+    zoom: 13,
   });
   infoWindow = new google.maps.InfoWindow();
 

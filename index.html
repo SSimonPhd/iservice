@@ -15,24 +15,44 @@
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-	<title>Geoloco</title>
+	<title>Simon Techworks | Geolocation Services</title>
 </head>
 
 <body>
 	<section class="section p-5">
 		<div class="container">
-			<h1 class="title is-size-1 has-text-light" style="display: inline-block;" >Geoloco...</h1>
-			<img width=60px height=60px src="assets/images/pacman-icon.png">
-			<p class="subtitle is-size-5 py-2 has-text-light">Our CSS framework is <strong class="has-text-info">Bulma! </strong>Our Geolocation Service features <strong class="has-text-info">2 APIs! ;)</strong><br><br> MVP (minimum viable product) with MRE (minimum required effort)</p>
+			<h1 class="title is-size-1 mb-5 has-text-light" style="display: inline-block" >Geolocation Data Dashboard</h1>
+			<p class="subtitle is-size-5 py-2 has-text-light">Our CSS framework is <strong class="has-text-info">Bulma! </strong>Our Geolocation Service features <strong class="has-text-info">2 APIs!</strong><br>
 		</div>
 	</section>
 
+	<!-- Local storage counter -->
+	<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
+
+    <button onclick="increaseCounter()" type="button">Increase Count</button>
+
+    <button onclick="decreaseCounter()" type="button">Decrease Count</button>
+
+    <button onclick="clearCounter()" type="button">Clear Local Storage</button>
+
+    <p class="is-size-6 mt-2 has-text-light" >Score:</p>
+
+		<p id="score"></p>
+
+    <p class="is-size-6 mt-2 has-text-light">Click on "Increase Count" to increase number</p>
+
+    <p class="is-size-6 mt-2 has-text-light">Click on "Decrease Count" button to decrease number</p>
+
+    <p class="is-size-6 mt-2 has-text-light">Click on "Clear Local Storage" button to clear the localStorage</p>
+		
+    <p class="is-size-6 mt-2 mb-4 has-text-light">Data should persist even after refreshing or closing the browser.</p>
+
 	<div class="container">
-		<h3 class="title is-size-4 has-text-info">1) Your IP geolocation data...</h3>
+		<h3 class="title is-size-4 has-text-info">1) Your IP geolocation data: </h3>
 		<div class="is-size-6 mb-5 has-text-info p-4" id="result" ></div>
 	</div>
 
-	<h3 class="title is-size-4 my-5 py-2 has-text-info">2) Google geolocator (click Pan). Starting point Austin, Texas.</h3>
+	<h3 class="title is-size-4 my-5 py-2 has-text-info">2) Google geolocation map (based on your IP geolocation data) (click Pan).</h3>
 
 	<!-- Google map -->
 	<div id="map"></div>
