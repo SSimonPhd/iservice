@@ -22,7 +22,7 @@
 	<section class="section p-5">
 		<div class="container">
 			<h1 class="title is-size-1 mb-5 has-text-light" style="display: inline-block" >Geolocation Data Dashboard</h1>
-			<p class="subtitle is-size-5 pt-2 has-text-light">Our Geolocation Service features <strong class="has-text-info">IP Data, Map, and Local Storage Test</strong><br>
+			<p class="subtitle is-size-5 pt-2 has-text-light">Our Geolocation Service features <strong class="has-text-info">IP Data, Geo Map, and Local Storage Test</strong><br>
 		</div>
 	</section>
 
@@ -35,7 +35,7 @@
 
     <button onclick="clearCounter()" type="button">Clear Local Storage</button>
 
-    <p class="is-size-6 mt-2 has-text-light" >Score:</p>
+    <p class="is-size-6 mt-2 has-text-light" >Count:</p>
 
 		<p id="score"></p>
 
@@ -45,14 +45,14 @@
 
     <p class="is-size-6 mt-2 has-text-light">Click on "Clear Local Storage" button to clear the localStorage</p>
 		
-    <p class="is-size-6 mt-2 mb-4 has-text-light">Data should persist even after refreshing or closing the browser.</p>
+    <p class="is-size-6 mt-2 mb-5 has-text-light">Data should persist even after refreshing or closing the browser.</p>
 
 	<div class="container">
-		<h3 class="title is-size-4 has-text-info">1) Your IP geolocation data: </h3>
+		<h3 class="title is-size-4 has-text-info">Your IP Geolocation Data: </h3>
 		<div class="is-size-6 mb-5 has-text-info p-4" id="result" ></div>
 	</div>
 
-	<h3 class="title is-size-4 my-5 py-2 has-text-info">2) Google geolocation map (based on your IP geolocation data) (click Pan).</h3>
+	<h3 class="title is-size-4 my-5 py-2 has-text-info">Google Geolocation Map (click Pan to Current Location).</h3>
 
 	<!-- Google map -->
 	<div id="map"></div>
