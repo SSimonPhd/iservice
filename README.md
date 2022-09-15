@@ -12,7 +12,7 @@ Build an API Dashboard featuring 2 server-side APIs, with a CSS framework other 
 -  Built Google Maps Geolocation API in JS, added to HTML
 -  Built IP Geolocation API in JS, added to HTML
 -  Coded localStorage placeholder to demo and test 
--  
+-  NEXT: Filter, parse, and format IP Geolocation data for UI
 
 - Screenshot
 
