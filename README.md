@@ -12,7 +12,7 @@ Build a web app featuring 2 server-side APIs using a CSS framework other than bo
 
 - Screenshot
 
-![image]()
+![]()
 
 - URL to deployed application:
 https://ssimonphd.github.io/project1/
