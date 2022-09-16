@@ -27,7 +27,7 @@ var requestOptions = {
     redirect: "follow",
 };
 
-fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOptions)
+fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV/", requestOptions)
     .then(response => response.text())
     .then(result => console.log(result))
     .catch(error => console.log('error', error));
@@ -35,7 +35,6 @@ fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV", requestOption
 		console.log = function(message) {
 			document.getElementById('result').innerHTML = message;
 	};
-	console.log('');
 
 // Google map with geolocator api
 let map, infoWindow;

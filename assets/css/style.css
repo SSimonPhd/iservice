@@ -9,7 +9,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #12253d;
+	background-color: #0c1522;
 	text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
 
 /* Id selectors */
 #result {
-	background-color: #0c111a;
+	background-color: #1a1c1f;
 	border-radius: 10px;
   height: 200px;
   width: 60%;

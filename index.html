@@ -15,21 +15,45 @@
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-	<title>Simon Techworks | Geolocation Services</title>
+	<title>Simon Techworks | ISP Data Dash</title>
 </head>
 
 <body>
 	<section class="section p-5">
 
 		<div class="container">
-			<h1 class="title is-size-1 mb-2 has-text-light" style="display: inline-block" >Geolocation Data Dashboard</h1>
+			<h1 class="title is-size-1 mb-2 has-text-light">ISP Data Dash</h1>
 
 			<p><a class="is-size-5 mb-2 has-text-info" href="https://simonphd.me" target=_blank >Simon Techworks</a> (V3.3 build 42)</P>
 
-			<p class="subtitle is-size-5 mt-3 has-text-light">Our Geolocation Service features <strong class="has-text-info">IP Data, Geo Map, and Browser Local Storage Test App</strong><br>
+			<p class="subtitle is-size-5 mt-3 has-text-light">Our Geolocation Service features <strong class="has-text-info">ISP Speed Test, IP Data, Geo Map, and Local Storage Test App</strong><br>
 		</div>
 
 	</section>
+
+	<!--OST Widget code start-->
+	<div style="text-align: center; margin-bottom:30px;">
+		<div style="min-height:360px;">
+			<div style="width:100%;height:0;padding-bottom:10%;position:relative;">
+				<iframe style="border:none;position:relative;top:0;left:0;width:42%;height:50%;min-height:360px;border-radius:10px;	box-shadow: 4px 4px hsl(204, 86%, 53%);overflow:hidden !important;" src="//openspeedtest.com/Get-widget.php"></iframe>
+			</div>
+		</div>
+	</div>
+
+	<!-- IP geolocation api -->
+	<div class="container">
+		<h3 class="title is-size-4 has-text-info">IP Geolocation Data: </h3>
+		<div class="is-size-6 mb-5 p-6 has-text-info p-4" id="result" ></div>
+	</div>
+
+	<h3 class="title is-size-4 my-5 py-2 has-text-info">Google Geolocation Map (click "Pan to Current Location"): </h3>
+
+	<!-- Google map -->
+	<div class="mb-5" id="map"></div>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPgBfg8QpfQX1EYoIF0akG9hVU3m81WQ&callback=initMap&v=weekly"
+		defer>
+	</script>
 
 	<!-- Local storage counter -->
 	<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
@@ -51,21 +75,6 @@
 	<p class="is-size-6 mt-2 has-text-light">Click on "Clear Local Storage" to clear the local storage</p>
 	
 	<p class="is-size-6 mt-2 mb-5 has-text-light">Total count should resume on click even after refreshing or closing the browser</p>
-
-	<!-- IP geolocation api -->
-	<div class="container">
-		<h3 class="title is-size-4 has-text-info">Browser IP Geolocation Data: </h3>
-		<div class="is-size-6 mb-5 has-text-info p-4" id="result" ></div>
-	</div>
-
-	<h3 class="title is-size-4 my-5 py-2 has-text-info">Google Geolocation Map (click "Pan to Current Location"): </h3>
-
-	<!-- Google map -->
-	<div id="map"></div>
-	<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBPgBfg8QpfQX1EYoIF0akG9hVU3m81WQ&callback=initMap&v=weekly"
-		defer>
-	</script>
 
 	<!-- JS script -->
 	<script src="assets/js/script.js"></script>
