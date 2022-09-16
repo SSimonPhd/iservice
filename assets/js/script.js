@@ -29,12 +29,12 @@ var requestOptions = {
 
 fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV/", requestOptions)
     .then(response => response.text())
-    .then(result => console.log(result))
+    .then(result => console.log(JSON.stringify(result, null, 2)))
     .catch(error => console.log('error', error));
 
 		console.log = function(message) {
 			document.getElementById('result').innerHTML = message;
-	};
+};
 
 // Google map with geolocator api
 let map, infoWindow;
