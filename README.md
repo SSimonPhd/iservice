@@ -16,6 +16,8 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Built IP Geolocation API in JS, displayed console log data on web page using the DOM (sourced from broad web search)
 1.  Merged working demo in test branch with main
 1.  Coded local storage counter to test (placeholder demo)
+1.  Updated styles, colors, and branding
+1.  Added ISP speed test 
 1.  NEXT: Filter, parse, and format IP Geolocation data for UI
 
 - Screenshot
