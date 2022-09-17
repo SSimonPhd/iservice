@@ -6,7 +6,7 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 
 1. 	Brainstormed project ideas, user stories, TO DOs
 1.  Committed to minimalist design philosophy and adaptive incremental approach 
-1.  Researched broadly REST APIs, CSS frameworks, and related JavaScript 
+1.  Researched broadly REST APIs, CSS frameworks, and VanillaJS (library/framework free javascript, no jQuery) 
 1.  Created repository for project in GitHub and cloned to local directory
 1.  Created test branch to build working demo (with Google Map and related API)
 1.  Created HTML, CSS, JS starter files
@@ -15,12 +15,14 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Built Google Maps Geolocation API in JS, added to HTML (by researching Google Maps Platform docs, tutorials, code snippets, and demos)
 1.  Built IP Geolocation API in JS, displayed console log data on web page using the DOM (sourced from broad web search)
 1.  Merged working demo in test branch with main
-1.  Coded local storage counter to test (placeholder demo)
+1.  Coded local storage test
 1.  Updated styles, colors, and branding
-1.  Added ISP speed test, styled and centered div
+1.  Added ISP speed test, styled and centered
 1.  Filtered, parsed, and formatted IP Geolocation data with JSON.stringify
 1.  Added blink effect to local storage total
 1.  Added footer with copyright and validator links
+1.  Added comments to all files where appropriate
+2.  Updated README with project details, screenshot, and links
 
 - Screenshot
 
