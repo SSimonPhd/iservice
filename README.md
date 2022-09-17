@@ -27,7 +27,7 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 ![image](https://user-images.githubusercontent.com/60651145/190836847-77407db8-5036-4f61-a9e7-84ae1ea36670.png)
 
 - URL to deployed application:
-https://ssimonphd.github.io/project1/
+https://ssimonphd.github.io/data-dash/
 
 - URL to GitHub repo:
-https://github.com/SSimonPhd/project1
+https://github.com/SSimonPhd/data-dash
