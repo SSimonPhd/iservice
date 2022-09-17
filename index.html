@@ -31,7 +31,7 @@
 
 	</section>
 
-	<!--OST Widget code start-->
+	<!-- ISP speed test -->
 	<div style="text-align: center; margin-bottom:30px;">
 		<div style="min-height:360px;">
 			<div style="width:100%;height:0;padding-bottom:10%;position:relative;">
@@ -43,12 +43,39 @@
 	<!-- IP geolocation api -->
 	<div class="container">
 		<h3 class="title is-size-4 has-text-info">IP Geolocation Data: </h3>
-		<div class="is-size-4 has-text-info has-text-center" id="result"></div>
+		<div class="is-size-4 mb-5 has-text-info has-text-center" id="result"></div>
 	</div>
 
-	<h3 class="title is-size-4 my-5 py-2 has-text-info">Google Geolocation Map (click "Pan to Current Location"): </h3>
+		<!-- Local storage test -->
+		<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
+
+		<button class="button mb-4 is-info" onclick="increaseCounter()">Increase Count</button>
+	
+		<button class="button is-info" onclick="decreaseCounter()">Decrease Count</button>
+	
+		<button class="button is-info" onclick="clearCounter()">Clear Local Storage</button>
+	
+		<div class="container">
+			<div class="is-size-3 mb-5 p-5 has-text-info has-text-center" id="test">
+	
+			<p class="is-size-3 pb-3 has-text-info is-inline-block" >Count:</p>
+	
+			<p class="has-text-grey is-inline-block" id="total"></p>
+	
+			<p class="is-size-5 has-text-info">Click on "Increase Count" to increase number</p>
+	
+			<p class="is-size-5 mt-2 has-text-info">Click on "Decrease Count" to decrease number</p>
+	
+			<p class="is-size-5 mt-2 has-text-info">Click on "Clear Local Storage" to clear the local storage</p>
+			
+			<p class="is-size-5 mt-2 mb-5 has-text-info">Count total should resume on click even after refreshing or closing the browser</p>
+	
+		</div>
+	</div>
 
 	<!-- Google map -->
+	<h3 class="title is-size-4 my-5 py-2 has-text-info">Google Geolocation Map (click "Pan to Current Location"): </h3>
+
 	<div class="mb-5" id="map"></div>
 	
 	<script
@@ -56,29 +83,15 @@
 		defer>
 	</script>
 
-	<!-- Local storage counter -->
-	<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
-
-	<button onclick="increaseCounter()" type="button">Increase Count</button>
-
-	<button onclick="decreaseCounter()" type="button">Decrease Count</button>
-
-	<button onclick="clearCounter()" type="button">Clear Local Storage</button>
-
-	<p class="is-size-6 mt-2 has-text-light" >Count:</p>
-
-	<p id="total"></p>
-
-	<p class="is-size-6 mt-2 has-text-light">Click on "Increase Count" to increase number</p>
-
-	<p class="is-size-6 mt-2 has-text-light">Click on "Decrease Count" to decrease number</p>
-
-	<p class="is-size-6 mt-2 has-text-light">Click on "Clear Local Storage" to clear the local storage</p>
-	
-	<p class="is-size-6 mt-2 mb-5 has-text-light">Count total should resume on click even after refreshing or closing the browser</p>
-
 	<!-- JS script -->
 	<script src="assets/js/script.js"></script>
+
+	<!-- Added a footer with copyright and validator links -->
+	<footer class="footer">
+
+		&copy; copyright Scott J. Simon, Ph.D. Valid <a class="has-text-info" href="http://jigsaw.w3.org/css-validator/">CSS</a> | <a class="has-text-info" href="http://validator.w3.org/">HTML</a></p>
+
+	</footer>
 
 </body>
 
