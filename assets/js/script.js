@@ -28,13 +28,23 @@ var requestOptions = {
 };
 
 fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV/", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(JSON.stringify(result, null, 2)))
-    .catch(error => console.log('error', error));
+    .then(response => response.json())
+    .then(result => {
+			console.log(result , null, 2)
+			
+			let data = {
+				ip: result.ip,
+				city: result.city,
+				state: result.state,
+				country: result.country,
+				latitude: result.latitude,
+				longitude: result.longitude,
+			};
+			
+			document.getElementById('result').innerText = JSON.stringify(data, null, 2).replace(/{|"|}/gm, '');
+		})
 
-		console.log = function(message) {
-			document.getElementById('result').innerHTML = message;
-};
+    .catch(error => console.log('error', error));
 
 // Google map with geolocator api
 let map, infoWindow;

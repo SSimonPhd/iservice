@@ -39,13 +39,12 @@ p {
 #result {
 	background-color: #17191b;
 	border-radius: 10px;
-  height: 200px;
+  height: 300px;
   width: 60%;
 	margin-left: auto;
   margin-right: auto;
 	border-radius: 10px;
 	box-shadow: 4px 4px hsl(204, 86%, 53%);
-	word-wrap: break-word;
 }
 
 #map {
