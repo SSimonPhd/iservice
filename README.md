@@ -22,7 +22,8 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Added blink effect to local storage total
 1.  Added footer with copyright and validator links
 1.  Added comments to all files where appropriate
-2.  Updated README with project details, screenshot, and links
+1.  Updated README with project details, screenshot, and links
+1.  STATS: 2 Branches (test & main), 115 commits, 1,411 ++ additions to code,  980 -- deletions
 
 - Screenshot
 
