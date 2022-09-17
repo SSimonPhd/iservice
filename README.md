@@ -20,7 +20,7 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Added ISP speed test, styled and centered div
 1.  Filtered, parsed, and formatted IP Geolocation data with JSON.stringify
 1.  Added blink effect to local storage total
-1.  Added footer with validator links
+1.  Added footer with copyright and validator links
 
 - Screenshot
 
