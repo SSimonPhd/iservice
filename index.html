@@ -9,16 +9,20 @@
 	<!-- Bulma -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+	<!-- Local CSS style sheet -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
+	<!-- Custom favicon branding -->
 	<link rel="icon" type="image/png" href="assets/images/simon-8-ball.png">
 
+	<!-- Polyfil for google geolocation map api -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 	<title>Simon Techworks | ISP Data Dash</title>
 </head>
 
 <body>
+	<!-- Header -->
 	<section class="section p-5">
 
 		<div class="container">
@@ -46,30 +50,29 @@
 		<div class="is-size-4 mb-5 has-text-info has-text-center" id="result"></div>
 	</div>
 
-		<!-- Local storage test -->
-		<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
+	<!-- Local storage test -->
+	<h3 class="title is-size-4 has-text-info">Local Storage Test:</h3>
 
-		<button class="button mb-4 is-info" onclick="increaseCounter()">Increase Count</button>
-	
-		<button class="button is-info" onclick="decreaseCounter()">Decrease Count</button>
-	
-		<button class="button is-info" onclick="clearCounter()">Clear Local Storage</button>
-	
-		<div class="container">
-			<div class="is-size-3 mb-5 p-5 has-text-info has-text-center" id="test">
-	
-			<p class="is-size-3 pb-3 has-text-info is-inline-block" >Count:</p>
-	
-			<p class="has-text-grey is-inline-block" id="total"></p>
-	
-			<p class="is-size-5 has-text-info">Click on "Increase Count" to increase count</p>
-	
-			<p class="is-size-5 mt-2 has-text-info">Click on "Decrease Count" to decrease count</p>
-	
-			<p class="is-size-5 mt-2 has-text-info">Click on "Clear Local Storage" to clear local storage and return to zero</p>
-			
-			<p class="is-size-5 mt-2 mb-5 has-text-info">Count total should resume on click even after refreshing or closing the browser</p>
-	
+	<button class="button mb-4 is-info" onclick="increaseCounter()">Increase Count</button>
+
+	<button class="button is-info" onclick="decreaseCounter()">Decrease Count</button>
+
+	<button class="button is-info" onclick="clearCounter()">Clear Local Storage</button>
+
+	<div class="container">
+		<div class="is-size-3 mb-5 p-5 has-text-info has-text-center" id="test">
+
+		<p class="is-size-3 pb-3 has-text-info is-inline-block" >Count:</p>
+
+		<p class="has-text-grey is-inline-block" id="total"></p>
+
+		<p class="is-size-5 has-text-info">Click on "Increase Count" to increase count</p>
+
+		<p class="is-size-5 mt-2 has-text-info">Click on "Decrease Count" to decrease count</p>
+
+		<p class="is-size-5 mt-2 has-text-info">Click on "Clear Local Storage" to clear local storage and return to zero</p>
+		
+		<p class="is-size-5 mt-2 mb-5 has-text-info">Count total should resume on click even after refreshing or closing the browser</p>
 		</div>
 	</div>
 
