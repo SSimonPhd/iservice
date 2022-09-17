@@ -17,8 +17,10 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Merged working demo in test branch with main
 1.  Coded local storage counter to test (placeholder demo)
 1.  Updated styles, colors, and branding
-1.  Added ISP speed test 
-1.  NEXT: Filter, parse, and format IP Geolocation data for UI
+1.  Added ISP speed test, styled and centered div
+1.  Filtered, parsed, and formatted IP Geolocation data with JSON.stringify
+1.  Added blink effect to local storage total
+1.  Added footer with validator links
 
 - Screenshot
 
