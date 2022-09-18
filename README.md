@@ -34,3 +34,6 @@ https://ssimonphd.github.io/data-dash/
 
 - URL to GitHub repo:
 https://github.com/SSimonPhd/data-dash
+
+- Google Slides Presentation
+https://docs.google.com/presentation/d/163tEDBZG8Pz-0UoTgXAL-4pN7ddPlimzBzB2fGHJGEA/edit#slide=id.p
