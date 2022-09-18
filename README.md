@@ -1,4 +1,4 @@
-# ISP Data Dash 
+# IS (internet service) 
 
 Assignment:
 
@@ -28,13 +28,13 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 
 - Screenshot
 
-![image](https://user-images.githubusercontent.com/60651145/190836847-77407db8-5036-4f61-a9e7-84ae1ea36670.png)
+coming soon!
 
 - URL to deployed application:
-https://ssimonphd.github.io/data-dash/
+https://ssimonphd.github.io/is/
 
 - URL to GitHub repo:
-https://github.com/SSimonPhd/data-dash
+https://github.com/SSimonPhd/is
 
 - Google Slides Presentation
 https://docs.google.com/presentation/d/163tEDBZG8Pz-0UoTgXAL-4pN7ddPlimzBzB2fGHJGEA/edit#slide=id.p
