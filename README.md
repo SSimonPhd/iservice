@@ -24,7 +24,7 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Added comments to all files where appropriate
 1.  Updated README with project details, screenshot, and links
 1.  Prepared Google Slides presentation with custom theme (matching project) & link
-1.  STATS: 134 commits (main), <span style="color:green">1,477 ++ additions, <span style="color:red"> 1041 -- deletions
+1.  STATS: 134 commits (main), 1,477 ++ additions, 1041 -- deletions
 
 - Screenshot
 
