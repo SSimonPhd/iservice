@@ -31,10 +31,10 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 ![image](https://user-images.githubusercontent.com/60651145/190928661-b45c1b05-8683-4518-a4a1-d55ff57f2133.png)
 
 - URL to deployed application:
-https://ssimonphd.github.io/is/
+https://ssimonphd.github.io/iservice/
 
 - URL to GitHub repo:
-https://github.com/SSimonPhd/is
+https://github.com/SSimonPhd/iservice
 
 - Google Slides Presentation
 https://docs.google.com/presentation/d/163tEDBZG8Pz-0UoTgXAL-4pN7ddPlimzBzB2fGHJGEA/edit#slide=id.p

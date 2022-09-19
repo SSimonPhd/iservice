@@ -46,7 +46,7 @@ fetch("https://v1.nocodeapi.com/simonphd/lookup/doTeAmBZbLzsExUV/", requestOptio
 
     .catch(error => console.log('error', error));
 
-// Google map with geolocator api
+// Google geolocation map api
 let map, infoWindow;
 
 function initMap() {
