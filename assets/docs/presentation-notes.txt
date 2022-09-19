@@ -1,0 +1,18 @@
+1) title page: Acronym for internet service (is.io domain name)
+
+2) vingette: This app is a building block towards a telecommunications resource site/Internet data service.
+
+One stop shop for consumer-grade Internet-related data management
+
+Easy to use, easy to find is.io or is
+
+3) thinking: Minimalist design philosophy - keep it simple
+vs iterative (breaking project into parts that eventually form a whole), takes longer, can get stuck in track
+Flexible without having to go back to the drawing board
+(no libraries/frameworks or jQuery)
+
+4) doing: Bird’e eye view
+Team members cracking like eggshells under pressure
+Role confusion/combination
+Team member lack knowledge, skill, or experience and make self-defeating decisions, conflicts of interest, things get personal, sabtage the team and/or project
+

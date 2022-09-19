@@ -1,4 +1,4 @@
-# iS (Internet Data Service API) 
+# iS (Internet Service API) 
 
 Assignment:
 
