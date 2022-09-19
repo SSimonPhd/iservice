@@ -1,4 +1,4 @@
-# IS (internet service api) 
+# IS (Internet Service API) 
 
 Assignment:
 
