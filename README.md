@@ -1,7 +1,5 @@
 # iS (Internet Service API) 
 
-Test Assignment:
-
 Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than Bootstrap, and utilizing local storage:
 
 1. 	Brainstormed project ideas, user stories, TO DOs
