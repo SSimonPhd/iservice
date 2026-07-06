@@ -1,5 +1,7 @@
 # iS (Internet Service API) 
 
+![image](https://user-images.githubusercontent.com/60651145/190928661-b45c1b05-8683-4518-a4a1-d55ff57f2133.png)
+
 Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than Bootstrap, and utilizing local storage:
 
 1. 	Brainstormed project ideas, user stories, TO DOs
@@ -23,10 +25,6 @@ Build an API Dashboard featuring 2 server-side APIs, a CSS framework other than 
 1.  Updated README with project details, screenshot, and links
 1.  Prepared Google Slides presentation with custom theme (matching project) & link
 1.  STATS: 134 commits (main), 1,477 ++ additions, 1041 -- deletions
-
-- Screenshot
-
-![image](https://user-images.githubusercontent.com/60651145/190928661-b45c1b05-8683-4518-a4a1-d55ff57f2133.png)
 
 - URL to deployed application:
 https://ssimonphd.github.io/iservice/
